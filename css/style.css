@@ -60,7 +60,54 @@ header img{
 }
 .spektakli{
     background-image: url(../img/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     height: 547px;
-
+    width:80%
+    
+}
+.spektakli div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #930000;
+    top: 35px;
+    right: 34px;
+    height: 37px;
+    width: 171px;
+    border-radius: 6px;
+}
+.spektakli h2{
+    font-size: 24px;
+    color: #FFF5E4;
+    position: absolute;
+    bottom: 24px;
+    left: 36px;
+    
+}
+.spektakli div p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF5E4;
+}
+.spektakli h1{
+    font-size: 32px;
+    color: #FFF5E4;
+    position: absolute;
+    left: 36px;
+    bottom: 72px;
+    font-weight: 700;
+}
+.spektakli i{
+    position:absolute;
+    bottom: 24px;
+    right: 36px;
+    font-size: 40px;
+}
+.red-header{
+    font-size: 48px;
+    color: #510809;
+    font-weight: 700;
 }
