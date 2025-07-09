@@ -56,6 +56,7 @@ header img{
     height: 831px;
     padding: 120px;
     padding-bottom: 58px;
+    gap: 36px;
 
 }
 .spektakli{
@@ -64,7 +65,7 @@ header img{
     background-size: cover;
     position: relative;
     height: 547px;
-    width:80%
+    width:100%
     
 }
 .spektakli div{
@@ -110,4 +111,191 @@ header img{
     font-size: 48px;
     color: #510809;
     font-weight: 700;
+}
+.carusleis-seqcia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.meore{
+    background-image: url(../img/hamlet_1965_hamlet_and_the_players_1965_photo_by_reg_wilson_c_rsc_208390.tmb-img-1824.jpeg) !important;
+
+}
+.mesame{
+    background-image: url(../img/95266-28.jpeg) !important;
+
+}
+.section-2{
+    width: 100%;
+    height: 780px;
+    background-color: #510809;
+    position: relative;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 64px;
+    padding-bottom: 40px;
+}
+.section-2 h2{
+    font-size: 48px;
+    color: #FFF5E4;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+.msaxiobi{
+    background-image: url(../img/tom-holland.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 548px;
+    height: 548px;
+    display: flex;
+    padding: 24px;
+    align-items: flex-end;
+    
+}
+.msaxiobi h1 {
+    font-size: 24px;
+    color: #FFF5E4;
+    font-weight: 700;
+
+}
+.msaxiobi p {
+    font-size: 24px;
+    color: #FFF5E4;
+
+}
+.info-msaxiobze {
+    width: 436px;
+    padding: 24px;
+    height: fit-content;
+    background-color: #930000;
+    font-size: 24px;
+    color: #FFF5E4;
+    line-height: 1.5;
+}
+.mix{
+    display: flex;
+    position: absolute;
+    left: 0px;
+}
+.ori{
+    background-image: url(../img/tornike.png) !important;
+}
+.mix-2{
+    display: flex;
+    align-items: flex-end;
+    position: absolute;
+    right: 0px;
+
+
+}
+.mix-12{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.section-3 div{
+    width: 100%;
+    height: 442px;
+    background-image: url(../img/vadym-lebedych-lt9N3sfrh-Y-unsplash\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 24px 120px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.section-3 div p{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFF5E4;
+}
+.section-3 {
+    width: 100%;
+    height: 622px ;
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-3 h1{
+    margin-left: 120px;
+
+}
+footer{
+    width: 100%;
+    height: 380px;
+    padding: 48px 120px;
+    background-color: #930000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gap{
+    width: 100%;
+    height: 180px;
+}
+.logoebi{
+    display: flex;
+    gap: 24px;
+}
+.ft-1 p{
+    font-size: 20px;
+    line-height: 2;
+    color: #FFF5E4;
+    opacity: 75%;
+    width: 227px;
+}
+.ft-1{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.ft-2{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
+}
+.ft-2 ul li{
+    font-size: 20px;
+    line-height: 2;
+    color: #FFF5E4;
+    opacity: 75%;
+
+}
+.ft-2 h1{
+   font-size: 24px;
+   color: #FFF5E4;
+   font-weight: 700;
+
+    
+}
+.ft-2{
+    
+    display: flex;
+    flex-direction: colummn;
+    gap: 54px;
+}
+.ft-3 ul{
+    display: flex;
+    gap: 24px;
+
+}
+.ft-3 ul li{
+    font-size:32px
+}
+.ft-3{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+.ft-3 h1{
+    font-size: 24px;
+   color: #FFF5E4;
+   font-weight: 700;
+}
+.ft-rightside{
+    display: flex;
+    gap: 80px;
 }
