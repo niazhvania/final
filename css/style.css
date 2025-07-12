@@ -44,6 +44,7 @@ header img{
 .main-img h1{
     font-size: 48px;
     color: #FFF5E4;
+    font-weight: 700;
    
 } 
 .main-img p{
@@ -298,4 +299,13 @@ footer{
 .ft-rightside{
     display: flex;
     gap: 80px;
+}
+.dzieba{
+    border: #3F1000 solid 1px;
+    border-radius: 12px;
+    display: flex;
+    gap:4px
+    padding 11px 18px;
+    height: 52px;
+    width: 544px;
 }
