@@ -113,16 +113,28 @@ header img{
     color: #510809;
     font-weight: 700;
 }
-.carusleis-seqcia{
+/* .carusleis-seqcia{
     width: 100%;
     display: flex;
-    justify-content: center;
-}
+    justify-content: center; */
+
 .meore{
     background-image: url(../img/hamlet_1965_hamlet_and_the_players_1965_photo_by_reg_wilson_c_rsc_208390.tmb-img-1824.jpeg) !important;
 
 }
 .mesame{
+    background-image: url(../img/95266-28.jpeg) !important;
+
+}
+.meotxe{
+    background-image: url(../img/image\ 4.png) !important;
+
+}
+.mexute{
+    background-image: url(../img/image\ 5.png) !important;
+
+}
+.meeqvse{
     background-image: url(../img/95266-28.jpeg) !important;
 
 }
@@ -147,7 +159,7 @@ header img{
     background-repeat: no-repeat;
     background-size: cover;
     width: 548px;
-    height: 548px;
+    aspect-ratio: 1/1;
     display: flex;
     padding: 24px;
     align-items: flex-end;
@@ -186,6 +198,7 @@ header img{
     align-items: flex-end;
     position: absolute;
     right: 0px;
+    bottom: 120px;
 
 
 }
@@ -229,7 +242,6 @@ footer{
     background-color: #930000;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .gap{
     width: 100%;
@@ -275,7 +287,7 @@ footer{
 .ft-2{
     
     display: flex;
-    flex-direction: colummn;
+    flex-direction: column;
     gap: 54px;
 }
 .ft-3 ul{
@@ -316,6 +328,15 @@ footer{
     font-size: 24px;
     color: #3F1000;
 }
+.dzieba input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: #3F1000;
+  flex: 1;
+  background: transparent;
+}
+
 .left-side{
     background-image: url(../img/image\ 1.png);
     background-repeat: no-repeat;
@@ -404,4 +425,84 @@ footer{
     font-size: 24px;
     color: #3F1000;
 
+}
+.patara{
+    aspect-ratio: 5 / 3 !important;
+    height: auto;
+
+
+}
+.patara div{
+    top: 16px !important;
+    left: 24px !important;
+}
+.patara h2{
+    left: 24px !important;
+    bottom: 16px;
+    font-size: 16px !important;
+    
+}
+.patara h1{
+    left: 24px !important;
+    bottom: 40px !important;
+    font-size: 24px !important;
+}
+.patara i{
+    top: 16px !important;
+    right: 24px !important;
+    font-size: 20px !important;
+}
+.spektaklebi{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 36px 120px 180px 120px;
+    justify-content: space-between;
+}
+.linki{
+    width: 32%;
+}
+.linki:hover{
+    width: 32.5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s ease;
+}
+.spektakli>i:hover{
+    color: #C9B89B;
+}
+.burgermenu{
+    font-size: 32px;
+    display: none;
+}
+.burgera{
+    display: none;
+    position: absolute;
+    right: 20px;
+    padding: 16px;
+    background-color:#FFF5E4;
+
+}
+.burgera li{
+    padding: 16px;
+    border: #3F1000 solid 1px;
+}
+.about-intro{
+    margin:10%;
+}
+.about-intro p{
+    font-size: 24px;
+    color: #3F1000;
+}
+.our-mission{
+    margin: 10%;
+ 
+}
+.our-mission p{
+     font-size: 24px;
+    color: #3F1000;
+}
+.our-mission h2{
+     font-size: 36px;
+    color: #3F1000;
+    font-weight: 700;
 }
