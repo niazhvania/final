@@ -1,11 +1,19 @@
 
-@media only screen and (max-width: 1440px) {
+@media only screen and (max-width: 1705px) {
+
+    .section-2{
+        height: 980px;
+    }
+
+}
+@media only screen and (max-width: 1720px) {
 
     .section-2{
         height: 1036px;
     }
 
 }
+
 @media only screen and (max-width: 1250px) {
 .linki{
     width: 48%;
