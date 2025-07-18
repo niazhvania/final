@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 
 @media only screen and (max-width: 1705px) {
 
@@ -66,7 +73,8 @@ footer{
         width:200px
     }
     footer{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         gap: 40px;
         height: 616px;
     }
@@ -84,7 +92,10 @@ footer{
         padding: 36px 36px 48px 36px;
     }
     .spektaklis-agwera{
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
     .left-side{
         width: 100%;
@@ -97,7 +108,10 @@ footer{
         width: 80%;
     }
     .ft-1{
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
     }
     .ft-1 p{
         width: auto;
@@ -189,12 +203,14 @@ height: auto;
 }
 
 .ft-rightside{
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 
 }
 footer{
     height: auto;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 .gap{
     height: 48px;
@@ -222,4 +238,3 @@ footer{
     width: 100%;
 }
 }
-

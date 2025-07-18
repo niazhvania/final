@@ -38,10 +38,12 @@
     <div class="main-img">
         <h1>სპეკტაკლები</h1>
     </div>
-    <div class="dzieba">
-        <i class="fa-solid fa-magnifying-glass" style="color: #3f1000;"></i>
-        <input type="text" placeholder="ძიება">
-    </div>
+<form class="dzieba" action="/search" method="GET">
+  <i class="fa-solid fa-magnifying-glass" style="color: #3f1000;"></i>
+  <input type="text" name="query" placeholder="ძიება" required>
+  <button type="submit" style="display:none;">Search</button>
+</form>
+
     <section class="spektaklebi">
         <a class="linki" href="jinsebisraoba.html">
    <div class="spektakli patara">
@@ -156,8 +158,8 @@
     <footer>
       <div class="ft-1">
       <div class="logoebi">
-        <img class="tetri-logo"src="../img/tbc logo.png" alt="tbc logo">
-        <img class="tetri-logo"src="../img/tetrilogo.png" alt="logo">
+        <img class="tetri-logo" src="../img/tbc-logo.png" alt="tbclogo">
+        <img class="tetri-logo" src="../img/tetrilogo.png" alt="logo">
       </div>
       <p>ადგილი, სადაც ამბავი 
 რეალობა ხდება.</p>
