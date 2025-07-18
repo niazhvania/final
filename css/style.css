@@ -1,5 +1,13 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-mtav-med/css/alk-rounded-mtav-med.min.css");
+
 body{
     background-color: #FFF5E4; 
+    font-family: "ALK Life", sans-serif;
+
+
+}
+p{
+    font-family: "ALK Rounded Mtav Med", sans-serif;
 }
 header{
     display: flex;
@@ -23,6 +31,7 @@ header ul{
 header ul li {
     font-size: 24px;
     color: #3F1000; 
+    font-family: "Roboto Condensed", sans-serif;
 
 }
 header img{
